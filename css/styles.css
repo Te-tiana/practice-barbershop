@@ -1,0 +1,60 @@
+:root {
+    --white: #FFFFFF;
+    --active: #FF6C00;
+    --gray-1: rgba(157, 164, 189, 0.6);
+    --gray-2: #C4C8D7;
+    --gray-3: #555555;
+    --black: #303030;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    color: var(--black);
+}
+
+.header,
+.contact-link {
+    color: var(--white);
+
+}
+
+.link {
+    color: var(--white);
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.link:hover,
+.link:focus {
+    color: var(--active);
+}
+
+.link.active {
+    color: var(--active);
+}
+
+a[href^="#form"] {
+    border: 1px solid var(--active);
+}
+
+.quote {
+    color: var(--gray-1);
+}
+
+h1 {
+    color: var(--white);
+}
+
+.additional-title {
+    color: var(--gray-2);
+}
+
+.light > h6,
+.light > p {
+    color: var(--black);
+}
+
+h1, 
+h2 {
+    font-family: Raleway, sans-serif;
+}
